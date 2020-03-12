@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "buefy": "^0.8.13",
+    "gridsome": "^0.7.0",
+    "vuetify": "^2.2.16"
+  }
+}
