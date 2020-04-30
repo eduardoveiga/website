@@ -110,7 +110,7 @@
 
         if((this.username != '') && (this.password != '') && (this.againPassword != '') && (this.password == this.againPassword)){
           this.axios
-            .post('http://localhost:8081/register',{
+            .post('http://172.19.0.3:8081/register',{
               username: this.username,
               password: this.password
             })
